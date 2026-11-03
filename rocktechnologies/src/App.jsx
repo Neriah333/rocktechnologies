@@ -1,5 +1,6 @@
 import Navbar from "./pages/navbar";
 import HeroCarousel from "./pages/HeroCarousel";
+import About from "./pages/about";
 
 function App() {
   return (
@@ -10,6 +11,11 @@ function App() {
         {/* Home Section */}
         <section id="home">
           <HeroCarousel />
+        </section>
+
+        {/* About Section */}
+        <section id="about">
+          <About />
         </section>
       </main>
     </>
