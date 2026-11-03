@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 z-50 w-full bg-green-100/90 backdrop-blur-md shadow-sm">
+    <nav className="fixed top-0 left-0 z-50 w-full bg-white-300/60 backdrop-blur-md shadow-sm">
       <div className="flex items-center justify-between px-15 py-8">
 
         {/* Company Name */}
