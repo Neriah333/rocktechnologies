@@ -4,6 +4,8 @@ import About from "./pages/about";
 import Statistics from "./pages/stats";
 import Services from "./pages/services";
 import Products from "./pages/products";
+import Contact from "./pages/contact";
+import Footer from "./pages/footer";
 
 function App() {
   return (
@@ -35,9 +37,19 @@ function App() {
         <section id="products">
           <Products />
         </section>
+
+        {/* Contact Section */}
+        <section id="contact">
+          <Contact />
+        </section>
+
+        {/* Footer Section */}
+        <section id="footer">
+          <Footer />
+        </section>
       </main>
     </>
   );
 }
-
+    
 export default App;
