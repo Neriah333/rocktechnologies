@@ -80,11 +80,11 @@ function Services() {
   ];
 
   return (
-    <section id="services" className="bg-slate-50/50 px-4 py-20 sm:px-6 lg:px-8">
+    <section id="services" className="bg-green-50/50 px-4 py-20 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         {/* Section Heading */}
         <div className="mb-16 text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+          <h2 className="mb-4 text-3xl font-bold tracking-tight text-green-900 sm:text-4xl">
             Our Services
           </h2>
           <p className="mx-auto max-w-2xl text-base text-slate-600">
@@ -118,12 +118,12 @@ function Services() {
               <div className="flex flex-1 flex-col justify-between p-6 pt-10">
                 <div>
                   {/* Category Tag */}
-                  <span className="text-xs font-bold uppercase tracking-wider text-blue-600">
+                  <span className="text-xs font-bold uppercase tracking-wider text-green-600">
                     {service.category}
                   </span>
 
                   {/* Title */}
-                  <h3 className="mt-2 text-2xl font-bold text-slate-900">
+                  <h3 className="mt-2 text-2xl font-bold text-green-900">
                     {service.title}
                   </h3>
 
@@ -137,7 +137,7 @@ function Services() {
                 <div className="mt-8 border-t border-slate-100 pt-5 space-y-3">
                   <a
                     href="#request"
-                    className="inline-flex items-center text-sm font-semibold text-blue-900 hover:text-blue-700"
+                    className="inline-flex items-center text-sm font-semibold text-green-900 hover:text-green-700"
                   >
                     {service.primaryLinkText || "Request Solution Overview"}{" "}
                     <ArrowRight className="ml-1.5 h-4 w-4" />
@@ -146,7 +146,7 @@ function Services() {
                   <div>
                     <a
                       href="#schedule"
-                      className="text-sm font-medium text-slate-500 hover:text-slate-800"
+                      className="text-sm font-medium text-green-500 hover:text-green-800"
                     >
                       {service.secondaryLinkText || "Schedule a Demo"}
                     </a>

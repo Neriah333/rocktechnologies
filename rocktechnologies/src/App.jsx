@@ -3,6 +3,7 @@ import HeroCarousel from "./pages/HeroCarousel";
 import About from "./pages/about";
 import Statistics from "./pages/stats";
 import Services from "./pages/services";
+import Products from "./pages/products";
 
 function App() {
   return (
@@ -28,6 +29,11 @@ function App() {
         {/* Services Section */}
         <section id="services">
           <Services />
+        </section>
+
+        {/* Products Section */}
+        <section id="products">
+          <Products />
         </section>
       </main>
     </>
