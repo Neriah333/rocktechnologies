@@ -1,6 +1,7 @@
 import Navbar from "./pages/navbar";
 import HeroCarousel from "./pages/HeroCarousel";
 import About from "./pages/about";
+import Statistics from "./pages/stats";
 
 function App() {
   return (
@@ -16,6 +17,11 @@ function App() {
         {/* About Section */}
         <section id="about">
           <About />
+        </section>
+
+        {/* Statistics Section */}
+        <section id="statistics">
+          <Statistics />
         </section>
       </main>
     </>
