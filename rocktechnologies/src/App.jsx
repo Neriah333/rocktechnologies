@@ -2,6 +2,7 @@ import Navbar from "./pages/navbar";
 import HeroCarousel from "./pages/HeroCarousel";
 import About from "./pages/about";
 import Statistics from "./pages/stats";
+import Services from "./pages/services";
 
 function App() {
   return (
@@ -22,6 +23,11 @@ function App() {
         {/* Statistics Section */}
         <section id="statistics">
           <Statistics />
+        </section>
+
+        {/* Services Section */}
+        <section id="services">
+          <Services />
         </section>
       </main>
     </>
