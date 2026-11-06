@@ -9,11 +9,14 @@ import Products from "./pages/products";
 import Careers from "./pages/careers";
 import Contact from "./pages/contact";
 import Footer from "./components/footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
+
+      <ScrollToTop />
 
       <main className="pt-20">
         <Routes>
