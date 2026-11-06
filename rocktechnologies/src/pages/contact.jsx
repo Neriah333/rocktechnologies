@@ -82,7 +82,7 @@ function Contact() {
                 <div>
                   <h4 className="mb-1 font-semibold">Our Location</h4>
                   <p className="text-sm text-green-100">
-                    Westlands, Nairobi, Kenya
+                    Nairobi, Kenya
                   </p>
                 </div>
               </div>
@@ -94,7 +94,7 @@ function Contact() {
                 <div>
                   <h4 className="mb-1 font-semibold">Phone Number</h4>
                   <p className="text-sm text-green-100">
-                    +254 700 000 000
+                    +254 790 502 537
                   </p>
                 </div>
               </div>

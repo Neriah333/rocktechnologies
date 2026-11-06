@@ -108,14 +108,14 @@ function Footer() {
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-emerald-700" />
 
                 <span>
-                  1st Floor, Tech Park Building, Ring Road, Westlands, Nairobi
+                   Nairobi
                 </span>
               </li>
 
               <li className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 shrink-0 text-emerald-700" />
 
-                <span>+254 700 000 000</span>
+                <span>+254 790 502 537</span>
               </li>
 
               <li className="flex items-center space-x-3">

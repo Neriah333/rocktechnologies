@@ -1,4 +1,6 @@
 import { Lightbulb, ShieldCheck, Users, Rocket } from "lucide-react";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 function About() {
   const values = [
@@ -26,6 +28,8 @@ function About() {
 
   return (
     <section id="about" className="bg-purple-50 px-8 py-24">
+
+       <Navbar />
 
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 md:grid-cols-2">
 

@@ -1,55 +1,33 @@
-import Navbar from "./pages/navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/navbar";
 import HeroCarousel from "./pages/HeroCarousel";
 import About from "./pages/about";
 import Statistics from "./pages/stats";
 import Services from "./pages/services";
 import Products from "./pages/products";
 import Contact from "./pages/contact";
-import Footer from "./pages/footer";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
 
       <main className="pt-20">
-        {/* Home Section */}
-        <section id="home">
-          <HeroCarousel />
-        </section>
-
-        {/* About Section */}
-        <section id="about">
-          <About />
-        </section>
-
-        {/* Statistics Section */}
-        <section id="statistics">
-          <Statistics />
-        </section>
-
-        {/* Services Section */}
-        <section id="services">
-          <Services />
-        </section>
-
-        {/* Products Section */}
-        <section id="products">
-          <Products />
-        </section>
-
-        {/* Contact Section */}
-        <section id="contact">
-          <Contact />
-        </section>
-
-        {/* Footer Section */}
-        <section id="footer">
-          <Footer />
-        </section>
+        <Routes>
+          <Route path="/" element={<HeroCarousel />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/stats" element={<Statistics />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </main>
-    </>
+
+      <Footer />
+    </BrowserRouter>
   );
 }
-    
+
 export default App;
