@@ -6,6 +6,7 @@ import About from "./pages/about";
 import Statistics from "./pages/stats";
 import Services from "./pages/services";
 import Products from "./pages/products";
+import Careers from "./pages/careers";
 import Contact from "./pages/contact";
 import Footer from "./components/footer";
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/stats" element={<Statistics />} />
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>

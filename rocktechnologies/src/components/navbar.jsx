@@ -33,6 +33,10 @@ function Navbar() {
             Products
           </Link>
 
+          <Link to="/careers" className={linkStyles}>
+            Careers
+          </Link>
+
           <Link to="/contact" className={linkStyles}>
             Contact
           </Link>
